@@ -12,7 +12,7 @@ The following schedule is subject to change.
 
 Assignments and due dates will be on Brightspace.
 
-The following schedule is subject to change based on the speed at which we get through various topics. All readings are frome the text, Database System Concepts.
+The following schedule is subject to change based on the speed at which we get through various topics. All readings are from the text, Database System Concepts.
 
 |Class |Date  |Topics                                               |Reading/Resourses|
 |------|------|-----------------------------------------------------|-----------------|
