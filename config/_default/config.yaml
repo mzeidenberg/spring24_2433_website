@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: NYU CS 0479, Section 2, Spring 2023 # Website name
-baseurl: 'https://cs.nyu.edu/courses/spring23/CSCI-UA.0479-002/' # Website URL
+title: NYU CS 2443, Spring 2023 # Website name
+baseurl: 'https://cs.nyu.edu/courses/spring23/CSCI-GA.2433-001/' # Website URL
 copyright: '' # Footer text, e.g. '© {year} Me'
 
 ############################

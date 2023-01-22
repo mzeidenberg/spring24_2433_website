@@ -12,8 +12,8 @@ columns: '1'
 
 All of the Zoom links below (for meetings and office hours) can be also found on Brightspace.
 
-- Tuesdays and Wednesdays 3:30-4:45PM, Silver 520
-- Zoom link: https://nyu.zoom.us/j/91245611185
+- Wednesdays 4:55-6:55PM, 109 William Weaver Hall
+- Zoom link: https://nyu.zoom.us/j/94741123533
 - Sessions will be recorded, but in-person attendence is preferred.
 
 ## Office Hours
@@ -26,57 +26,38 @@ Please turn your camera on if possible when you connect.
 
 If you are unable to log on at these times and would like to talk to me, please email me for an appointment.
 
-Shubhankar, the TA, will also be holding Zoom office hours. Times and link to be announced.
+Bing, the TA, will also be holding Zoom office hours. Times and link to be announced.
 
-## Course Description
+## Course Topics
 
-Extracting, transforming and analyzing data in myriad formats with traditional relational databases as well as non-relational databases. Data modeling, cloud databases, and API programming. Garnering insights using Python and current data analysis tools and libraries.
+Database system architecture. Modeling an application and logical database design. The relational model and relational data definition and data manipulation languages. Design of relational databases and normalization theory. Physical database design. Concurrency and recovery. Query processing and optimization.
 
-### Course Topics
+## Textbook
 
-* Python
-* data formats and retrieving data:
-    - data formats (JSON CSV TSV etc.)
-    - retrieving data with Python (web, file system, etc.)
-* working with Python data management packages (pandas, numpy)
-* (a taste of) data analysis
-    - descriptive statistics
-    - linear and logistic regression
-    - decision trees and random forests
-* data visualization and plotting with Matplotlib
-* relational databases using SQL:
-    - SQLite
-    - relational database design
-    - Entity/Relationship (ER) diagrams
-    - normalization
-    - SQL syntax
-    - basic create/read/update/delete
-    - JOINs
-    - aggregate queries
-    - window functions
-* NoSQL:
-    - MongoDB (a JSON document database)
-         + basic create/read/update/delete
-         + querying
+The textbook is [Database System Concepts (7th edition) by Silberschatz, Korth and Sudarshan.](https://www.db-book.com/)
 
-
-## Textbooks
-
-The following books are all available for free online reading through the NYU library's [license](https://guides.nyu.edu/c.php?g=276639&p=1845282) for Safari Books Online. (Here are some [instructions](https://docs.google.com/document/d/1baUVxqR8Y8QV7qyCXf087jBVqJA-EkjE7j6AJvr2yO4/edit?usp=sharing) from the NYU library on getting the NYU license to work in O'Reilly's apps for iOS and Android). They can also be purchased in hard copy.
-
-* Data Science from Scratch, Second Edition, by Joel Grus
-* Python for Data Analysis, Third Edition, by Wes McKinney
-* Think Stats, Second Edition, by Allen B. Downey
-* Using SQLite by Jay A. Kreibich
-* Relational Database Design and Implementation, 4th Edition, by Jan L. Harrington
+We will be following the book rather closely so it is important that you obtain a copy. It is avaialble at the NYU 
+Bookstore, on Amazon and other online booksellers, and in the Courant Library through electronic reserve.
 
 ## Grading
 I plan to use the following breakdown for grading.
 
+* 5% - Research Paper Presentation
 * 5% - In-Class Participation
-* 35% - Homework
+* 30% - Homework
 * 30% - Midterm Exam
 * 30% - Final Exam
+
+## Research Paper Presentation
+
+Each week except for the first, I will be asking a team of seven students to present an important paper from the database
+research literature that I will select. The paper should be presented using at least seven slides and each student should present at least one slide. The presentation should take 10 to 15 minutes.
+
+This will be ungraded, but required. That is, if you participate in a team, you will get the full five points for this activity.
+You only need to do this once in the semester.
+
+If you are very averse to public speaking, I will present your slide, but in that case you need to write up what you want me 
+to say about the slide in a couple of a paragraphs.
 
 ## In-Class Participation
 
