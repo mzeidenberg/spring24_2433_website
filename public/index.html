@@ -1,0 +1,1369 @@
+<!DOCTYPE html><html lang="en-us" >
+
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  
+  
+  
+    <meta name="generator" content="Wowchemy 5.4.0 for Hugo" />
+  
+
+  
+  
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+
+  
+  
+  
+    
+      
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
+    
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Nelson Bighetti" />
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Professor of Artificial Intelligence" />
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://cs.nyu.edu/courses/spring23/CSCI-UA.0479-002/" />
+
+  
+  
+  
+    <meta name="theme-color" content="#1565c0" />
+  
+
+  
+  
+
+  
+
+  <link rel="stylesheet" href="/courses/spring23/CSCI-UA.0479-002/css/vendor-bundle.min.f1ecf783c14edc00c9320c205831ad8e.css" media="print" onload="this.media='all'">
+
+  
+  
+  
+    
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin="anonymous" media="print" onload="this.media='all'">
+    
+
+    
+    
+    
+    
+      
+      
+      
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/github.min.css" crossorigin="anonymous" title="hl-light" media="print" onload="this.media='all'">
+          <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" media="print" onload="this.media='all'" disabled>
+        
+      
+    
+
+    
+    
+    
+
+    
+
+    
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+      
+      
+
+      
+      
+
+      
+    
+  
+
+  
+  
+  
+  
+  
+  <link rel="stylesheet" href="/courses/spring23/CSCI-UA.0479-002/css/wowchemy.fdeb09e237052632e0ec72f95561ab57.css" />
+
+  
+
+
+
+  
+
+  
+
+  
+
+
+
+
+  
+  
+  
+    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+    <link rel="alternate" href="/courses/spring23/CSCI-UA.0479-002/index.xml" type="application/rss+xml" title="NYU CS 0479, Section 2, Spring 2023" />
+  
+
+  
+
+  <link rel="icon" type="image/png" href="/courses/spring23/CSCI-UA.0479-002/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+  <link rel="apple-touch-icon" type="image/png" href="/courses/spring23/CSCI-UA.0479-002/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
+
+  <link rel="canonical" href="https://cs.nyu.edu/courses/spring23/CSCI-UA.0479-002/" />
+
+  
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+
+  
+  
+    
+    
+  
+  <meta property="twitter:card" content="summary" />
+  
+  <meta property="og:site_name" content="NYU CS 0479, Section 2, Spring 2023" />
+  <meta property="og:url" content="https://cs.nyu.edu/courses/spring23/CSCI-UA.0479-002/" />
+  <meta property="og:title" content="NYU CS 0479, Section 2, Spring 2023" />
+  <meta property="og:description" content="Professor of Artificial Intelligence" /><meta property="og:image" content="https://cs.nyu.edu/courses/spring23/CSCI-UA.0479-002/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+    <meta property="twitter:image" content="https://cs.nyu.edu/courses/spring23/CSCI-UA.0479-002/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+  
+    
+      <meta property="og:updated_time" content="2030-06-01T13:00:00&#43;00:00" />
+    
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite","url": "https://cs.nyu.edu/courses/spring23/CSCI-UA.0479-002/"
+}
+</script>
+
+
+  
+
+  
+
+  
+
+
+
+
+
+  <title>NYU CS 0479, Section 2, Spring 2023</title>
+</head>
+
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" class="page-wrapper   "  >
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script src="/courses/spring23/CSCI-UA.0479-002/js/wowchemy-init.min.7e85d6cfe81caeb57cc49452f9b55e03.js"></script>
+
+  
+
+
+
+
+  <div class="page-header">
+    
+
+
+
+
+
+
+
+
+
+
+
+
+<header class="header--fixed">
+  <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+    <div class="container-xl">
+
+      
+      <div class="d-none d-lg-inline-flex">
+        <a class="navbar-brand" href="/">NYU CS 0479, Section 2, Spring 2023</a>
+      </div>
+      
+
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation">
+      <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+      
+      <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+        <a class="navbar-brand" href="/">NYU CS 0479, Section 2, Spring 2023</a>
+      </div>
+      
+
+      
+      
+      <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+        
+        <ul class="navbar-nav d-md-inline-flex">
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/courses/spring23/CSCI-UA.0479-002/#instructor"><span>Course & Instructor</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/courses/spring23/CSCI-UA.0479-002/#syllabus"><span>Syllabus</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/courses/spring23/CSCI-UA.0479-002/#schedule"><span>Schedule</span></a>
+          </li>
+
+          
+          
+
+        
+
+          
+        </ul>
+      </div>
+
+      <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+
+        
+        
+          
+        
+
+        
+        
+
+        
+        
+        <li class="nav-item dropdown theme-dropdown">
+          <a href="#" class="nav-link" data-toggle="dropdown" aria-haspopup="true" aria-label="Display preferences">
+            <i class="fas fa-moon" aria-hidden="true"></i>
+          </a>
+          <div class="dropdown-menu">
+            <a href="#" class="dropdown-item js-set-theme-light">
+              <span>Light</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-dark">
+              <span>Dark</span>
+            </a>
+            <a href="#" class="dropdown-item js-set-theme-auto">
+              <span>Automatic</span>
+            </a>
+          </div>
+        </li>
+        
+
+        
+        
+
+      </ul>
+
+    </div>
+  </nav>
+</header>
+
+
+  </div>
+
+  <div class="page-body">
+    
+
+
+
+
+
+
+
+
+
+
+
+  
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="instructor" class="home-section wg-blank  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Course &amp; Instructor</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12 col-lg-8">
+    <p>Data Management and Analysis<br>
+Section 2<br>
+<a href="https://www.mattzeidenberg.com/" target="_blank" rel="noopener">Matt Zeidenberg</a><br>
+Clinical Associate Professor<br>
+<a href="https://cs.nyu.edu/home/index.html" target="_blank" rel="noopener">Department of Computer Science</a><br>
+Courant Institute of Mathematical Sciences<br>
+New York University<br>
+Warren Weaver Hall,  251 Mercer Street, Room 419<br>
+New York, New York 10012<br>
+email: <a href="mailto:mz3332@nyu.edu">mz3332@nyu.edu</a><br>
+Cell: 718-304-7609<br>
+Fax: 212-995-4124</p>
+<p>Teaching Assistant: Shubhankar Ranade, <a href="mailto:sr6200@nyu.edu">sr6200@nyu.edu</a></p>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="syllabus" class="home-section wg-blank  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Syllabus</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12 col-lg-8">
+    <h2 id="meeting-time-and-place">Meeting Time and Place</h2>
+<p>All of the Zoom links below (for meetings and office hours) can be also found on Brightspace.</p>
+<ul>
+<li>Tuesdays and Wednesdays 3:30-4:45PM, Silver 520</li>
+<li>Zoom link: <a href="https://nyu.zoom.us/j/91245611185" target="_blank" rel="noopener">https://nyu.zoom.us/j/91245611185</a></li>
+<li>Sessions will be recorded, but in-person attendence is preferred.</li>
+</ul>
+<h2 id="office-hours">Office Hours</h2>
+<p>My office hours will be held on Zoom and in person this semester from 2-3 PM every weekday except Friday. If you want to
+meet me in person, come to my office in 419 Warren Weaver Hall.</p>
+<p>The Zoom link for office hours is <a href="https://nyu.zoom.us/j/96750082623" target="_blank" rel="noopener">https://nyu.zoom.us/j/96750082623</a></p>
+<p>Please turn your camera on if possible when you connect.</p>
+<p>If you are unable to log on at these times and would like to talk to me, please email me for an appointment.</p>
+<p>Shubhankar, the TA, will also be holding Zoom office hours. Times and link to be announced.</p>
+<h2 id="course-description">Course Description</h2>
+<p>Extracting, transforming and analyzing data in myriad formats with traditional relational databases as well as non-relational databases. Data modeling, cloud databases, and API programming. Garnering insights using Python and current data analysis tools and libraries.</p>
+<h3 id="course-topics">Course Topics</h3>
+<ul>
+<li>Python</li>
+<li>data formats and retrieving data:
+<ul>
+<li>data formats (JSON CSV TSV etc.)</li>
+<li>retrieving data with Python (web, file system, etc.)</li>
+</ul>
+</li>
+<li>working with Python data management packages (pandas, numpy)</li>
+<li>(a taste of) data analysis
+<ul>
+<li>descriptive statistics</li>
+<li>linear and logistic regression</li>
+<li>decision trees and random forests</li>
+</ul>
+</li>
+<li>data visualization and plotting with Matplotlib</li>
+<li>relational databases using SQL:
+<ul>
+<li>SQLite</li>
+<li>relational database design</li>
+<li>Entity/Relationship (ER) diagrams</li>
+<li>normalization</li>
+<li>SQL syntax</li>
+<li>basic create/read/update/delete</li>
+<li>JOINs</li>
+<li>aggregate queries</li>
+<li>window functions</li>
+</ul>
+</li>
+<li>NoSQL:
+<ul>
+<li>MongoDB (a JSON document database)
+<ul>
+<li>basic create/read/update/delete</li>
+<li>querying</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="textbooks">Textbooks</h2>
+<p>The following books are all available for free online reading through the NYU library&rsquo;s <a href="https://guides.nyu.edu/c.php?g=276639&amp;p=1845282" target="_blank" rel="noopener">license</a> for Safari Books Online. (Here are some <a href="https://docs.google.com/document/d/1baUVxqR8Y8QV7qyCXf087jBVqJA-EkjE7j6AJvr2yO4/edit?usp=sharing" target="_blank" rel="noopener">instructions</a> from the NYU library on getting the NYU license to work in O&rsquo;Reilly&rsquo;s apps for iOS and Android). They can also be purchased in hard copy.</p>
+<ul>
+<li>Data Science from Scratch, Second Edition, by Joel Grus</li>
+<li>Python for Data Analysis, Third Edition, by Wes McKinney</li>
+<li>Think Stats, Second Edition, by Allen B. Downey</li>
+<li>Using SQLite by Jay A. Kreibich</li>
+<li>Relational Database Design and Implementation, 4th Edition, by Jan L. Harrington</li>
+</ul>
+<h2 id="grading">Grading</h2>
+<p>I plan to use the following breakdown for grading.</p>
+<ul>
+<li>5% - In-Class Participation</li>
+<li>35% - Homework</li>
+<li>30% - Midterm Exam</li>
+<li>30% - Final Exam</li>
+</ul>
+<h2 id="in-class-participation">In-Class Participation</h2>
+<p>I will be posting problems on Ed (see below) to be done during class.</p>
+<p>You don&rsquo;t need to get these problems right, but you do need to try to do them, that is, post some answer, in order to get credit for class participation.</p>
+<p>Credit will only be given for answers posted during class time. And if
+you post some answer to 75% of the problems I post, you will get full
+credit for participation.</p>
+<p>This is for two purposes: to make the class more interactive, and to
+encourage attendance.</p>
+<h2 id="homework">Homework</h2>
+<p>There will be 5 to 6 assignments.</p>
+<p>You get 10 grace days for assignment due dates, to be used as you choose. For instance, if you turn the first assignment in 2 days late, you will have 8 days left. The graders will track this for you. After you exhaust your late days, you lose 10% for each day late.</p>
+<p>The grace day system is designed to handle any personal situations you have, like a religious celebration, a family gathering, a short illness, a lot of work from other classes, etc.</p>
+<h2 id="information-about-ed">Information about Ed</h2>
+<p>You should have been automatically signed up for the Ed discussion system. The link (also in Brightspace in the Content area$)
+is <a href="https://edstem.org/us/courses/35997/discussion/" target="_blank" rel="noopener">https://edstem.org/us/courses/35997/discussion/</a></p>
+<p>Ed is an online discussion forum system that is designed to make it easy to have conversations around code.  Using Ed you will be able to ask me, the course tutors or your fellow students questions about course content and homework assignments. So if you have a question about the course content that could be of interest to other students, please post your question to Ed rather than sending me or the course assistant an email. Both of us will monitor Ed and answer questions there. You can also feel free to answer questions yourself if you know the answer.</p>
+<p>If you have a question for me that only concerns you (e.g. something about your grades), then feel free to send me an email. Please do not hesitate to get in touch with me via email or during office hours if you feel as though you are falling behind or you are not understanding a particular concept.</p>
+<h2 id="personal-computers-and-software">Personal Computers and Software</h2>
+<p>It is highly encouraged that you bring a laptop to class.</p>
+<p>I recommend installing <a href="https://www.anaconda.com/" target="_blank" rel="noopener">Anaconda</a> on your machine. We will be mainly using Google Colab notebooks in class which I will share with you. You can make your own copies of these notebooks and run and edit those copies online. However, you may want to run some notebooks locally on your machine. Anaconda installs JupyterLab on your machine which is what I recommend using for this. It also installs lot of other useful software.</p>
+<h2 id="disability-disclosure-statement">Disability Disclosure Statement</h2>
+<p>Academic accommodations are available for students with disabilities. Please contact the Moses Center for Students with Disabilities (212-998-4980 or <a href="mailto:mosescsd@nyu.edu">mosescsd@nyu.edu</a>) for further information. Students who are requesting academic accommodations are advised to reach out to the Moses Center as early as possible in the semester for assistance, although it can be done at any time during the semester.</p>
+<h2 id="collaboration--academic-integrity">Collaboration &amp; Academic Integrity</h2>
+<p>Assignments that you turn in should be your own work. It is fine to talk to other students and to get assistance in how to do something, but you should not ask your fellow students to actually do the work for you. When you turn in an assignment, you are saying that you have done this work yourself. The definition of plagiarism is to present someone else’s work as though it were your own. Please read the Computer Science Department <a href="https://cs.nyu.edu/home/undergrad/policy.html" target="_blank" rel="noopener">statement on academic integrity</a> for more information.</p>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  <section id="schedule" class="home-section wg-blank  "  >
+   <div class="home-section-bg " >
+     
+   </div>
+    <div class="container">
+
+    
+      <div class="row  ">
+      
+        
+          <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+            <h1 class="mb-0">Schedule</h1>
+            
+          </div>
+        
+      
+    
+
+      
+
+
+
+  <div class="col-12 col-lg-8">
+    <p>The following schedule is subject to change.</p>
+<p>Assignments and due dates will be on Brightspace.</p>
+<p>The following schedule is subject to change based on the speed at which we get through various topics. Most of the topics link to a Google Colab notebook that I will use to cover that topic in class; a few link to Google Slides.</p>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Topics</th>
+<th>Reading/Resourses</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tu 1/24</td>
+<td>Course Overview</td>
+<td>Python for Data Analysis, Chapters 1 and 2; Data Science from Scratch, Chapter 2</td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1P48h1PqcssBn-jesuOmNSTKpg-ETBQyh?usp=sharing" target="_blank" rel="noopener">Languages for data analysis &amp; discussion of Python tooling</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1iIKM7_OOQ08l9BBGs0JPf6SBOcRRLXoV?usp=sharing" target="_blank" rel="noopener">Python Fundamentals</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1wroJjXEjz6Igm5xk_u-hDG-Fr9mmehfR?usp=sharing" target="_blank" rel="noopener">File I/O</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1vBunMtioF9ACmkrtOdxM7HdkaPxOOPYV?usp=sharing" target="_blank" rel="noopener">Unicode and Strings</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Th 1/26</td>
+<td><a href="https://colab.research.google.com/drive/1-fAR35RBBt8yCaAiIfoH0PBiVA_d6QZJ?usp=sharing" target="_blank" rel="noopener">Python Sequences, Dictionaries, and Sets</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 1/31</td>
+<td><a href="https://colab.research.google.com/drive/1VuCIoucvn52PDyOv3Mw9eSMvug-weJ_s?usp=sharing" target="_blank" rel="noopener">Functions and Functions as Arguments; Lambdas</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Th 2/2</td>
+<td><a href="https://colab.research.google.com/drive/1va3y4T4GJSdr0WGc75JrC8I5DXZxoE_v?usp=sharing" target="_blank" rel="noopener">Decorators</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1JXXwtpzjj5SlK7wqQMe36cSGTtbv8_19?usp=sharing" target="_blank" rel="noopener">Named Tuples and Classes</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 2/7</td>
+<td><a href="https://colab.research.google.com/drive/1s8XIeUXxQhqs89-mz4ip33rEAlv24HwO?usp=sharing" target="_blank" rel="noopener">Classes and Dunder/Magic Methods</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Th 2/9</td>
+<td><a href="https://colab.research.google.com/drive/1z-POEdOSwEgyksaEdV2_BZZuYnozTHg1?usp=sharing" target="_blank" rel="noopener">Iterators and Comprehensions</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1emXKArdiIiPteTqLAWqQOhHxhOQgbLeN?usp=sharing" target="_blank" rel="noopener">Extracting Data from a CSV file</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/11RtKDjfOqnXRD-g4dapps5co1Yypy4BJ?usp=sharing" target="_blank" rel="noopener">Descriptive Statistics</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1SukU0JFlqnxDFG8mywrsWBWJLBDKs-AR?usp=sharing" target="_blank" rel="noopener">Central Tendency and Dispersion</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 2/14</td>
+<td><a href="https://colab.research.google.com/drive/1e9a-yMsT0cvVbaG9auRtaon0bSv1MOKD?usp=sharing" target="_blank" rel="noopener">Covariance and Correlation</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/17gQ2EnhPG2lDQ0aM4bfZ6SlM-p69QFpM?usp=sharing" target="_blank" rel="noopener">Generators</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Th 2/16</td>
+<td><a href="https://colab.research.google.com/drive/1skb9XyP1Qy7ymuMxtGGxSa64b5xZIdDS?usp=sharing" target="_blank" rel="noopener">Numpy Basics</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 2/21</td>
+<td><a href="https://colab.research.google.com/drive/1E9UJUfPO1Ww38zoF7ZgWUFYaGtNfpU4d?usp=sharing" target="_blank" rel="noopener">Plotting and Visualization</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Th 2/23</td>
+<td><a href="https://colab.research.google.com/drive/1vtq7K5UdBWxmG4nN1fQ5IQLfHP2pHSbK?usp=sharing" target="_blank" rel="noopener">Text File Formats</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1PRIW8KXHgPZfECGP2LFRWWAjWXMMppzj?usp=sharing" target="_blank" rel="noopener">Tabular Data (pandas)</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 2/28</td>
+<td><a href="https://colab.research.google.com/drive/1a-tBSiDU9aYsYTGpi9q0_6jRhBPlcTI9?usp=sharing" target="_blank" rel="noopener">Pandas Part 2</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/14EdDK9SmaSbYyG31XgorSr9EroqcT2AZ?usp=sharing" target="_blank" rel="noopener">Pandas Part 3</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Th 3/2</td>
+<td><a href="https://colab.research.google.com/drive/1QALIjdfj2a7Vzmjro_M_J64_Nn52Z54d?usp=sharing" target="_blank" rel="noopener">Pandas Part 4</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1YiSIEp61ODkzsNSDgUfSgoXrowZItX3N?usp=sharing" target="_blank" rel="noopener">Pandas Part 5</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 3/7</td>
+<td>Review for Midterm Exam</td>
+<td></td>
+</tr>
+<tr>
+<td>Th 3/9</td>
+<td>Midterm Exam</td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 3/14 &amp; Th 3/16</td>
+<td>No Class, Spring Break</td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 3/21</td>
+<td><a href="https://colab.research.google.com/drive/1JbXAi2D1o1nRLmqC7RCHfDFeHv0N-20L?usp=sharing" target="_blank" rel="noopener">Overview of Relational Databases</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1XYIO2owlrLM8Sa5Jyh5HMZy2tjyJQktH?usp=sharing" target="_blank" rel="noopener">SQLite Intro</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Th 3/23</td>
+<td>Continuation of SQLite Intro</td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 3/28</td>
+<td>Continuation of SQLite Intro</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1gllK-cXxBftQIXh7Of9VjZ-4RGMHoj2O?usp=sharing" target="_blank" rel="noopener">Subqueries and Views in SQLite</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1QkD-Ex0J19OLvnJnKqhxRRAA-lo48M_s?usp=sharing" target="_blank" rel="noopener">Motivation for Database Design</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 4/4</td>
+<td><a href="https://colab.research.google.com/drive/1PoCYRKPYb1iYBvKVl80shreGDcdOoZqM?usp=sharing" target="_blank" rel="noopener">Database Design</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Th 4/6</td>
+<td><a href="https://colab.research.google.com/drive/1Ny45_TNkKbwyGbVhzcRIxNRkdGXcyoDQ?usp=sharing" target="_blank" rel="noopener">Relational Database Normalization</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 4/11</td>
+<td><a href="https://colab.research.google.com/drive/1zPpyDeUjen4Xk4AO1TBZBQvpLqxrYhUR?usp=sharing" target="_blank" rel="noopener">An Example of Normalization</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Window Functions: <a href="https://docs.google.com/presentation/d/1piXTDCmIcvC8em5Re9AnrnsxcB-I1MzqkktQmzAD5iw/edit?usp=sharing" target="_blank" rel="noopener">Google Slides</a>; <a href="https://drive.google.com/file/d/115om8CccBYxTZc3w-hqfVwGTWJeUtrrG/view?usp=sharing" target="_blank" rel="noopener">Notebook</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Th 4/13</td>
+<td><a href="https://colab.research.google.com/drive/1l5gAZPsF3pXRYQ38el-WWFhIZiGZ9_TD?usp=sharing" target="_blank" rel="noopener">SQLite Constraints</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1k8VG2XlnyWC9EmCFPHNf_oXlINGHWTh-?usp=sharing" target="_blank" rel="noopener">Triggers</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td><a href="https://colab.research.google.com/drive/1z76QcidpYzzcOXZwyjl4u4eMTTCsHRd5?usp=sharing" target="_blank" rel="noopener">Indexes</a></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Window Functions: <a href="https://docs.google.com/presentation/d/1piXTDCmIcvC8em5Re9AnrnsxcB-I1MzqkktQmzAD5iw/edit?usp=sharing" target="_blank" rel="noopener">Google Slides</a>; <a href="https://drive.google.com/file/d/115om8CccBYxTZc3w-hqfVwGTWJeUtrrG/view?usp=sharing" target="_blank" rel="noopener">Notebook</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 4/18</td>
+<td><a href="https://colab.research.google.com/drive/1fANwBEUHNJYVVCOYF4eK8L2yMgxy87DS?usp=sharing" target="_blank" rel="noopener">NoSQL: MongoDB</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Th 4/20</td>
+<td><a href="https://docs.google.com/presentation/d/1CFq0O5mIctp5QyjYWD3zuKvFk2R5yPUd53Cj68oR-O8/edit?usp=sharing" target="_blank" rel="noopener">Graph Databases</a></td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 4/25</td>
+<td>Linear and Logistic Regression</td>
+<td></td>
+</tr>
+<tr>
+<td>Th 4/27</td>
+<td>Decision Trees; Random Forests (Machine Learning)</td>
+<td></td>
+</tr>
+<tr>
+<td>Tu 5/2</td>
+<td>TBA</td>
+<td></td>
+</tr>
+<tr>
+<td>Th 5/4</td>
+<td>Review for Final Exam</td>
+<td></td>
+</tr>
+<tr>
+<td>TBA</td>
+<td>Final Exam, Time, Date, and Location to be Announced</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+
+  </div>
+
+
+
+    
+      </div>
+    
+
+    </div>
+  </section>
+
+
+
+  </div>
+
+  <div class="page-footer">
+    
+    
+    <div class="container">
+      <footer class="site-footer">
+
+  
+
+
+
+  
+
+  
+
+  
+
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    
+    
+      
+      
+      
+      
+      
+      
+      Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target="_blank" rel="noopener">Wowchemy</a> — the free, <a href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">open source</a> website builder that empowers creators.
+    
+  </p>
+</footer>
+
+    </div>
+    
+  </div>
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      
+
+    
+    <script src="/courses/spring23/CSCI-UA.0479-002/js/vendor-bundle.min.9592335d574f7a97010f99b90ad0f310.js"></script>
+
+    
+    
+    
+      
+      
+        <script src="https://cdn.jsdelivr.net/gh/desandro/imagesloaded@v4.1.4/imagesloaded.pkgd.min.js" integrity="sha512-S5PZ9GxJZO16tT9r3WJp/Safn31eu8uWrzglMahDT4dsmgqWonRY9grk3j+3tfuPr9WJNsfooOR7Gi7HL5W2jw==" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/gh/metafizzy/isotope@v3.0.6/dist/isotope.pkgd.min.js" integrity="sha512-Zq2BOxyhvnRFXu0+WE6ojpZLOU2jdnqbrM1hmVdGzyeCa1DgM3X5Q4A/Is9xA1IkbUeDd7755dNNI/PzSf2Pew==" crossorigin="anonymous"></script>
+      
+
+      
+      
+
+      
+
+      
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/highlight.min.js" integrity="sha512-Ypjm0o7jOxAd4hpdoppSEN0TQOC19UtPAqD+4s5AlXmUvbmmS/YMxYqAqarQYyxTnB6/rqip9qcxlNB/3U9Wdg==" crossorigin="anonymous"></script>
+        
+        
+        <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@10.2.1/build/languages/r.min.js" crossorigin="anonymous"></script>
+        
+      
+
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+
+    
+    
+
+    
+    
+    
+    
+
+    
+    
+
+    
+
+    
+    
+    
+    <script id="page-data" type="application/json">{"use_headroom":false}</script>
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/courses/spring23/CSCI-UA.0479-002/en/js/wowchemy.min.198c02c256b32de8a14cfe22fbf811b4.js"></script>
+
+    
+
+
+
+
+
+
+</body>
+</html>
