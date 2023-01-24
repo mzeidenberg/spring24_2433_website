@@ -26,7 +26,7 @@ Please turn your camera on if possible when you connect.
 
 If you are unable to log on at these times and would like to talk to me, please email me for an appointment.
 
-Bing, the TA, will also be holding Zoom office hours. Times and link to be announced.
+Bing, the TA, will also be holding Zoom office hours from 10 to 12 AM on Thursdays. His link is https://nyu.zoom.us/j/96456036469
 
 ## Course Topics
 
