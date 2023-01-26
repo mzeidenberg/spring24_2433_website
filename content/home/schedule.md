@@ -16,7 +16,7 @@ The following schedule is subject to change based on the speed at which we get t
 
 |Class |Date  |Topics                                               |Reading/Resourses|
 |------|------|-----------------------------------------------------|-----------------|
-|1 | 1/25|Course Overview; Introduction to Database Systems; The Relational Model |Chapters 1 and 2|
+|1 | 1/25|Course Overview; [Introduction to Database Systems](https://docs.google.com/presentation/d/1-klTyQjwsxmRNh5FXPzT4sXIWyj6DwNDSIeERSltTh4/edit?usp=sharing); The Relational Model |Chapters 1 and 2|
 |2 | 2/1|Introduction to SQL|Chapter 3|
 |3 | 2/8|Intermediate and Advanced SQL|Chapters 4 and 5|
 |4 | 2/15|Database Design and the Entity-Relationship Model|Chapter 6|
