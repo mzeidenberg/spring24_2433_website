@@ -88,7 +88,7 @@ Ed is an online discussion forum system that is designed to make it easy to have
 
 If you have a question for me that only concerns you (e.g. something about your grades), then feel free to send me an email. Please do not hesitate to get in touch with me via email or during office hours if you feel as though you are falling behind or you are not understanding a particular concept.
 
-## Personal Computers and Software
+## Personal Computers
 
 It is highly encouraged that you bring a laptop to class. 
 
