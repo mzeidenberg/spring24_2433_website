@@ -82,7 +82,7 @@ The grace day system is designed to handle any personal situations you have, lik
 
 ## Information about Ed
 You should have been automatically signed up for the Ed discussion system. The link (also in Brightspace in the Content area$)
-is https://edstem.org/us/courses/35997/discussion/
+is https://edstem.org/us/courses/35999/discussion/
 
 Ed is an online discussion forum system that is designed to make it easy to have conversations around code.  Using Ed you will be able to ask me, the course tutors or your fellow students questions about course content and homework assignments. So if you have a question about the course content that could be of interest to other students, please post your question to Ed rather than sending me or the course assistant an email. Both of us will monitor Ed and answer questions there. You can also feel free to answer questions yourself if you know the answer.
 
@@ -91,8 +91,6 @@ If you have a question for me that only concerns you (e.g. something about your 
 ## Personal Computers and Software
 
 It is highly encouraged that you bring a laptop to class. 
-
-I recommend installing [Anaconda](https://www.anaconda.com/) on your machine. We will be mainly using Google Colab notebooks in class which I will share with you. You can make your own copies of these notebooks and run and edit those copies online. However, you may want to run some notebooks locally on your machine. Anaconda installs JupyterLab on your machine which is what I recommend using for this. It also installs lot of other useful software.
 
 ## Disability Disclosure Statement
 Academic accommodations are available for students with disabilities. Please contact the Moses Center for Students with Disabilities (212-998-4980 or mosescsd@nyu.edu) for further information. Students who are requesting academic accommodations are advised to reach out to the Moses Center as early as possible in the semester for assistance, although it can be done at any time during the semester.
