@@ -18,7 +18,7 @@ The following schedule is subject to change based on the speed at which we get t
 |------|------|-----------------------------------------------------|-----------------|
 |1 | 1/25|Course Overview; [Introduction to Database Systems](https://docs.google.com/presentation/d/1-klTyQjwsxmRNh5FXPzT4sXIWyj6DwNDSIeERSltTh4/edit?usp=sharing); [The Relational Model](https://docs.google.com/presentation/d/1o5fUdeF6j7MmB1NqtayWNYmRmOOUOomJaLf7kVXg9pM/edit?usp=sharing) |Chapters 1 and 2|
 |2 | 2/1|[Introduction to SQL](https://docs.google.com/presentation/d/1n8ARbdEvzMNKokpjiXuHVK1lexMnuU7XBCF3TF7W-ko/edit?usp=sharing)|Chapter 3|
-|3 | 2/8|[Intermediate](https://docs.google.com/presentation/d/1n8ARbdEvzMNKokpjiXuHVK1lexMnuU7XBCF3TF7W-ko/edit?usp=sharing) and Advanced SQL|Chapters 4 and 5|
+|3 | 2/8|[Intermediate](https://docs.google.com/presentation/d/1dZD6Y--aoAfq3kNVvIWYf94FEjfkU7lw76Fbkt6km_s/edit?usp=sharing) and Advanced SQL|Chapters 4 and 5|
 |4 | 2/15|Database Design and the Entity-Relationship Model|Chapter 6|
 |5 | 2/22|Relational Database Design| Chapter 7|
 |6 | 3/1|Physical Storage Systems, Data Storage Structures| Chapters 12 and 13|
