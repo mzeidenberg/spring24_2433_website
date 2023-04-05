@@ -19,9 +19,9 @@ The following schedule is subject to change based on the speed at which we get t
 |1 | 1/25|Course Overview; [Introduction to Database Systems](https://docs.google.com/presentation/d/1-klTyQjwsxmRNh5FXPzT4sXIWyj6DwNDSIeERSltTh4/edit?usp=sharing); [The Relational Model](https://docs.google.com/presentation/d/1o5fUdeF6j7MmB1NqtayWNYmRmOOUOomJaLf7kVXg9pM/edit?usp=sharing) |Chapters 1 and 2|
 |2 | 2/1|[Introduction to SQL](https://docs.google.com/presentation/d/1n8ARbdEvzMNKokpjiXuHVK1lexMnuU7XBCF3TF7W-ko/edit?usp=sharing)|Chapter 3|
 |3 | 2/8|[Intermediate](https://docs.google.com/presentation/d/1dZD6Y--aoAfq3kNVvIWYf94FEjfkU7lw76Fbkt6km_s/edit?usp=sharing) and [Advanced](https://docs.google.com/presentation/d/1AHtyW_2f7n7UMCzUahMUV1bRsNer7IEh3-aH7lbQsT8/edit?usp=sharing) SQL|Chapters 4 and 5|
-|4 | 2/15|Database Design and the Entity-Relationship Model|Chapter 6|
-|5 | 2/22|Relational Database Design| Chapter 7|
-|6 | 3/1|Physical Storage Systems, Data Storage Structures| Chapters 12 and 13|
+|4 | 2/15|[Database Design and the Entity-Relationship Model](https://docs.google.com/presentation/d/1G5OdlpOvLrI83UTnU5r8PakKzqaUHHsIg7s7EsrWUuo/edit?usp=sharing)|Chapter 6|
+|5 | 2/22|[Relational Database Design](https://docs.google.com/presentation/d/1Vml_B3ZcwkIaFI5G58lM_gioeG1smfAjtKAbztF_ecE/edit?usp=sharing)| Chapter 7|
+|6 | 3/1|[Physical Storage Systems](https://docs.google.com/presentation/d/1AXRZ6_kHm6WCn9U80uUW1gwPE82JbmgXSRajcSjmCx0/edit?usp=sharing), [Data Storage Structures](https://docs.google.com/presentation/d/1SHEMFaqW2IfyUJHqxmWKBG8JKkP5-WpqsTZPDCsKzH8/edit?usp=sharing)| Chapters 12 and 13|
 |7 | 3/8|Midterm Exam (in class)||
 | | 3/15|Spring Break, No Class||
 |8 | 3/22|Indexing, Hash Tables, Trees| Chapter 14|
