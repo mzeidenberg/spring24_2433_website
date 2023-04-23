@@ -24,11 +24,11 @@ The following schedule is subject to change based on the speed at which we get t
 |6 | 3/1|[Physical Storage Systems](https://docs.google.com/presentation/d/1AXRZ6_kHm6WCn9U80uUW1gwPE82JbmgXSRajcSjmCx0/edit?usp=sharing), [Data Storage Structures](https://docs.google.com/presentation/d/1SHEMFaqW2IfyUJHqxmWKBG8JKkP5-WpqsTZPDCsKzH8/edit?usp=sharing)| Chapters 12 and 13|
 |7 | 3/8|Midterm Exam (in class)||
 | | 3/15|Spring Break, No Class||
-|8 | 3/22|Indexing, Hash Tables, Trees| Chapter 14|
-|9 | 3/29|Query Processing, Sorting, Joins| Chapter 15|
+|8 | 3/22|[Indexing, Hash Tables, Trees](https://docs.google.com/presentation/d/1hDo7nqzQ7mOsX4SIlleyYh4jfr4OmKR2PlCvcUMtcag/edit?usp=sharing)| Chapter 14|
+|9 | 3/29|[Query Processing, Sorting, Joins](https://docs.google.com/presentation/d/1kMAtYFtpMnS08xZFe4dqnxBg8A0Nje3u3tc8bZry3xk/edit?usp=sharing)| Chapter 15|
 |10 | 4/5|Query Planning and Optimization| Chapter 16|
 |11 | 4/12|Transactions| Chapter 17|
 |12 | 4/19|Concurrency Control| Chapter 18|
-|13 | 4/26|Recovery| Chapter 19|
-|14 | 5/3|Database System Architectures; Parallel and Distributed Query Storage and Query Processing| Chapters 20, 21, and 22|
-||TBA|Final Exam, Location, Date, and Time to be Announced||
+|13 | 4/26|||
+|14 | 5/3||||
+||Thursday 5/11|Final Exam, Silver Room 408, 4-5:50 PM|||

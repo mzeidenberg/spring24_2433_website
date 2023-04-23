@@ -20,7 +20,7 @@ All of the Zoom links below (for meetings and office hours) can be also found on
 My office hours will be held on Zoom and in person this semester from 2-3 PM every weekday except Friday. If you want to 
 meet me in person, come to my office in 419 Warren Weaver Hall.
 
-The Zoom link for office hours is https://nyu.zoom.us/j/96750082623
+The Zoom link for office hours is https://nyu.zoom.us/j/94572646877
 
 Please turn your camera on if possible when you connect.
 
