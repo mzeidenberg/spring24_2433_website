@@ -28,7 +28,7 @@ The following schedule is subject to change based on the speed at which we get t
 |9 | 3/29|[Query Processing, Sorting, Joins](https://docs.google.com/presentation/d/1kMAtYFtpMnS08xZFe4dqnxBg8A0Nje3u3tc8bZry3xk/edit?usp=sharing)| Chapter 15|
 |10 | 4/5|[Query Optimization](https://docs.google.com/presentation/d/1sAJ7co1SxujddyQsO_WMZbwFkSLvpeJYlhezVyVr5SM/edit?usp=sharing)| Chapter 16|
 |11 | 4/12|[Transactions](https://docs.google.com/presentation/d/1Ei75XYGnoGpS1RR-95XOHtSu7Sgn1MxDBDc6l5BYYHU/edit?usp=sharing)| Chapter 17|
-|12 | 4/19|Concurrency Control| Chapter 18|
+|12 | 4/19|[Concurrency Control](https://docs.google.com/presentation/d/1vqBpvZz2MnbCuMEF1IkpOKzutMREXwfSySC6PT7MX7w/edit?usp=sharing)| Chapter 18|
 |13 | 4/26|||
 |14 | 5/3||||
 ||Thursday 5/11|Final Exam, Silver Room 408, 4-5:50 PM|||
