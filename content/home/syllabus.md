@@ -76,6 +76,8 @@ There will be 13 quizzes. Each will be worth the same amount.  I will drop the t
 The final will be similar to the quizzes, but longer, and employing the same technologies. Like the quizzes,
 it must be taken in person.
 
+I am taking this approach in part because it is [recommended by NYU](https://teachingsupport.hosting.nyu.edu/consultations/assessment/assessment-approaches/).
+
 ## Information about Ed
 
 Ed is an online system that will be available via Brightspace. It has discussion and lessons features that 
