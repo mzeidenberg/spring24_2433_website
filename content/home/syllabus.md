@@ -58,7 +58,7 @@ credit for that 5% of the grade.
 
 ## Homework
 
-There will be 5 to 6 assignments. They will be made available in Ed's Lessons module.
+There will at least five assignments. They will be made available in Ed's Lessons module.
 
 You get 10 grace days for assignment due dates, to be used as you choose. For instance, if you turn the first assignment in 2 days late, you will have 8 days left. The graders will track this for you. After you exhaust your late days, you lose 10% for each day late.
 
